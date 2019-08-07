@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffffff"
+    >
+
+
+    <TextView
+        android:layout_margin="10dp"
+        style="@style/Titel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Thêm" />
+
+
+    <Spinner
+        android:layout_margin="10dp"
+        android:id="@+id/spType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:popupBackground="#ffffff"
+
+        >
+
+    </Spinner>
+
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="..."
+            android:textColor="#000000"
+            android:id="@+id/tvGio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btGio"
+            android:text="Chọn Giờ"
+            android:textSize="15sp"
+            android:textColor="#e22800"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="..."
+            android:textColor="#000000"
+            android:id="@+id/tvNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btNgay"
+            android:text="Chọn Ngày"
+            android:textColor="#e22800"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtNote"
+        android:hint="Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Thêm"
+            android:textColor="#e22800"
+            android:background="#ffffff"
+            android:id="@+id/btThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textColor="#e22800"
+            android:background="#ffffff"
+            android:id="@+id/btHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

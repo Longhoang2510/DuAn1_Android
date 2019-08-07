@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        style="@style/Titel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Thêm Danh Mục"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_weight="4"
+            android:id="@+id/tilPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/edtType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Loại"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_weight="1"
+            android:textColor="#e22800"
+            android:background="#ffffff"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:stateListAnimator="@null"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcvDanhMuc"
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:id="@+id/btHuyThuocTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Hủy"
+        android:textColor="#e22800"
+        android:stateListAnimator="@null"
+        />
+
+
+
+
+</LinearLayout>

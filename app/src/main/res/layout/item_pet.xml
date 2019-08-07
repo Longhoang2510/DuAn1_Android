@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    >
+
+
+    <TextView
+        style="@style/CustomText1"
+        android:id="@+id/tvTypePet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thức Ăn" />
+
+
+    <TextView
+        style="@style/CustomText1"
+        android:id="@+id/tvLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại: Sữa không đường" />
+
+    <TextView
+        style="@style/CustomText1"
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời Gian: 19:30" />
+
+
+
+</LinearLayout>
